@@ -71,3 +71,8 @@ The included photo was supplied by the project owner. Confirm that you have perm
 - Separate WhatsApp chat links use Ghana international prefix +233 without the domestic leading 0.
 - Subpage navigation is accessible on mobile via a horizontally scrollable menu.
 - The site remains a static/browser-only demonstration; user submissions are not public and no database is connected.
+
+
+## Version 4 - embedded hero photograph
+
+The hotel hero photo is now embedded directly in `styles.css` (WebP data URI). The `assets` directory is no longer required for this background photograph. To update GitHub Pages, upload **styles.css** to your repository root and replace the existing file. You can also upload all the files in this release. Do not upload the ZIP itself.
