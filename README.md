@@ -76,3 +76,7 @@ The included photo was supplied by the project owner. Confirm that you have perm
 ## Version 4 - embedded hero photograph
 
 The hotel hero photo is now embedded directly in `styles.css` (WebP data URI). The `assets` directory is no longer required for this background photograph. To update GitHub Pages, upload **styles.css** to your repository root and replace the existing file. You can also upload all the files in this release. Do not upload the ZIP itself.
+
+
+## Version 5 — embedded branding and shared hotel background
+The official Sunyani Connect elephant logo is embedded directly in `styles.css` and replaces the old letter/sun logo throughout the site. The Golden Tulip façade is also embedded in `styles.css`, and now appears across Home, Discover, Categories, Map, Mission and List Your Business. No `assets` folder is required for these images. Category cards use mobile-friendly spacing between category names and their listing counts. Upload all of the updated HTML files and `styles.css` to your GitHub repository root.
