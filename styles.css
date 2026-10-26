@@ -62,3 +62,54 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
  .category-card {min-height:158px;padding:13px;}
  .category-count {font-size:11px;}
 }
+
+/* VERSION 6 — Readable, touch-friendly typography for phone visitors.
+   Kept separate from earlier styling for easy future maintenance. */
+@media (max-width: 700px) {
+  body {font-size: 17px;line-height: 1.6;}
+  .topbar {font-size: 12px;line-height: 1.4;letter-spacing: .3px;}
+  .nav-links a,.header .subnav a {font-size: 16px;line-height: 1.5;}
+  .header .subnav {gap: 22px;}
+  .btn,.nav-actions .btn,.header:has(.subnav) .btn {font-size: 15px;padding: 13px 15px;min-height: 46px;}
+  .mobile-menu {font-size: 30px;min-height: 44px;min-width: 44px;}
+  .hero h1 {font-size: clamp(48px, 11.5vw, 76px);line-height: 1.05;}
+  .hero-copy>p {font-size: 18px;line-height: 1.65;}
+  .eyebrow,.section-kicker,.wise-eyebrow {font-size: 13px;letter-spacing: .7px;}
+  .hero-search {height: auto;min-height: 66px;}
+  .hero-search input,.toolbar-input input {font-size: 16px;}
+  .hero-search button {font-size: 15px;min-height: 51px;}
+  .hero-suggestions,.hero-suggestions button {font-size: 14px;line-height: 1.6;}
+  .intro h2,.section-head h2,.how h2,.feature h2,.cta h2 {font-size: clamp(33px, 8.5vw, 47px);line-height: 1.15;}
+  .intro p,.section-head p,.page-lead {font-size: 18px;line-height: 1.65;}
+  .page-quicklinks a,.subnav a,.back-link,.outline-btn {font-size: 16px;}
+  .subpage h1 {font-size: clamp(39px, 10vw, 61px);line-height: 1.12;}
+  .category-card {min-height: 178px;padding: 17px;gap: 10px;}
+  .category-icon {font-size: 29px;}
+  .category-name {font-size: 18px;line-height: 1.3;}
+  .category-count {font-size: 15px;line-height: 1.5;margin-top: auto;padding-top: 10px;}
+  .toolbar .filter-label,.toolbar select,.result-row,.clear-filter {font-size: 15px;}
+  .toolbar select {min-height: 48px;}
+  .card-category,.card-chip {font-size: 13px;}
+  .card-body h3 {font-size: 25px;}
+  .card-location,.card-description {font-size: 16px;line-height: 1.65;}
+  .card-actions a,.card-actions span {font-size: 15px;min-height: 47px;}
+  .data-note,.source-link {font-size: 14px;line-height: 1.6;}
+  .feature p,.steps p,.mission-grid p,.listing-aside p {font-size: 17px;line-height: 1.7;}
+  .steps h3,.mission-grid h2 {font-size: 25px;}
+  .listing-form label,.modal label {font-size: 16px;}
+  .listing-form input,.listing-form textarea,.listing-form select,.map-sidebar input,.map-sidebar select,.modal input,.modal select,.modal textarea {font-size: 16px;min-height: 48px;}
+  .map-sidebar p,.map-place small,.map-actions small {font-size: 15px;}
+  .map-place strong,.map-title,.map-actions a {font-size: 17px;}
+  .map-place {padding: 15px;}
+  .wise-contact p,.wise-social a,.wise-wa {font-size: 16px;}
+  .wise-phone-list a {font-size: 19px;}
+  .footer-main p,.footer-main a:not(.logo),.footer-main button,.footer-bottom {font-size: 15px;line-height: 1.7;}
+  .modal>p,.form-success {font-size: 16px;}
+}
+@media (max-width: 390px) {
+  .category-card {min-height: 180px;padding: 14px;}
+  .category-name {font-size: 17px;}
+  .category-count {font-size: 14px;}
+  .hero-search button {padding-inline: 12px;}
+  .header:has(.subnav) .btn {font-size: 14px;}
+}
